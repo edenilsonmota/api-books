@@ -1,8 +1,8 @@
-package com.livros.esm.livros.controllers;
+package com.book.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.livros.esm.livros.book.DataCreateBook;
+import com.book.book.DataCreateBook;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PostMapping;

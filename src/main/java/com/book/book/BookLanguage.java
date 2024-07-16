@@ -1,4 +1,4 @@
-package com.livros.esm.livros.book;
+package com.book.book;
 
 /*
  * Enhum com as principais linguagem dos livros

@@ -1,4 +1,4 @@
-package com.livros.esm.livros.book;
+package com.book.book;
 
 
 public record DataCreateBook(
