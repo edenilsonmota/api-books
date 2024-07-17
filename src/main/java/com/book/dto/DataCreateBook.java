@@ -1,4 +1,4 @@
-package com.book.bookDto;
+package com.book.dto;
 
 
 public record DataCreateBook(
@@ -8,5 +8,6 @@ public record DataCreateBook(
     String publisher,
     BookLanguage language,
     Integer pages,
-    BookGenre genre
+    BookGenre genre,
+    String isbn
 ) {}

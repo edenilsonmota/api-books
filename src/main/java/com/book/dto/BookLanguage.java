@@ -1,4 +1,4 @@
-package com.book.bookDto;
+package com.book.dto;
 
 /*
  * Enhum com as principais linguagem dos livros

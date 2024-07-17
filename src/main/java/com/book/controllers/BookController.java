@@ -2,7 +2,7 @@ package com.book.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.book.bookDto.DataCreateBook;
+import com.book.dto.DataCreateBook;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PostMapping;
