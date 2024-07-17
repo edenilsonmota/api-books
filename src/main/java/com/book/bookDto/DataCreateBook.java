@@ -1,4 +1,4 @@
-package com.book.book;
+package com.book.bookDto;
 
 
 public record DataCreateBook(

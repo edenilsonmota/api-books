@@ -1,4 +1,4 @@
-package com.book.book;
+package com.book.bookDto;
 
 /*
  * Enhum com os principais generos dos livros
