@@ -1,5 +1,7 @@
 package com.book.dto;
 
+import com.book.enums.BookGenre;
+import com.book.enums.BookLanguage;
 
 public record DataCreateBook(
     String name,

@@ -1,4 +1,8 @@
-package com.book.dto;
+package com.book.entity;
+
+import com.book.dto.DataCreateBook;
+import com.book.enums.BookGenre;
+import com.book.enums.BookLanguage;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -9,9 +13,20 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Table(name = "book")
-@Entity(name = "books")
+@Entity(name = "book")
 
 public class Book {
+    //construtor
+    public Book(DataCreateBook data) {
+        this.name = data.name();
+        this.author = data.author();
+        this.quantity = data.quantity();
+        this.publisher = data.publisher();
+        this.language = data.language();
+        this.pages = data.pages();
+        this.genre = data.genre();
+        this.isbn = data.isbn();
+    }
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -121,9 +136,5 @@ public class Book {
             return false;
         return true;
     }
-
-    
-
-    
     
 }
